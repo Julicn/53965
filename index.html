@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Clase 1 - Sintaxis y variables</title>
+</head>
+<body>
+    <script>
+
+let nombreUsuario = prompt("Ingrese nombre de usuario");
+
+
+let edadActual = parseInt(prompt("Ingresa tu edad actual:"));
+let edadEn5 = edadActual + 5;
+console.log(edadEn5);
+alert("En 5 años vas a tener " + edadEn5 + " años.");
+
+
+//condicionales
+let nombre = prompt("Ingrese un numbre");
+if(nombre=="pepe"){
+    console.log("Bienvenido Pepe");
+    alert("Bienvenido Pepe");
+}else{
+    console.log("usuario "+nombre+ " no autorizado");
+}
+
+//booleanos
+let conEnvio = true;
+if (conEnvio){
+    let direccionDeEnvio=prompt("Ingrese la dirección de entrega del paquete");
+    console.log("Manaña recibirás tu pedido en "+direccionDeEnvio);
+}
+
+</script>
+<script src="./js/main.js"></script>    
+</body>
+</html>
